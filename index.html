@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Display</title>
+    <style>
+        #pingElement {
+            position: absolute;
+            width: 100px;
+            height: 50px;
+            background-color: #ffffff;
+            text-align: center;
+            line-height: 50px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="pingElement">Ping: 0ms</div>
+    <script>
+        // JavaScript Code
+        function initialize() {
+            let userLocation = "Location data message here";
+            let mouseX = window.innerWidth / 2;
+            let mouseY = window.innerHeight / 2;
+            let ping = 0;
+
+            // Simulated fetchData function
+            function fetchData(endpoint) {
+                return new Promise((resolve, reject) => {
+                    setTimeout(() => resolve(), Math.random() * 200); // Simulate random delay
+                });
+            }
+
+            // Function to calculate ping
+            function calculatePing() {
+                let startTime = Date.now();
+                fetchData("ping").then(() => {
+                    let endTime = Date.now();
+                    ping = endTime - startTime;
+                }).catch(() => {
+                    ping = 'Error';
+                });
+            }
+
+            // Function to display and move pingElement
+            function displayPing() {
+                let deltaX = mouseX - window.innerWidth / 2;
+                let deltaY = mouseY - window.innerHeight / 2;
+                let distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+
+                if (distance > 30) {
+                    mouseX -= (deltaX / distance) * 30;
+                    mouseY -= (deltaY / distance) * 30;
+                } else {
+                    mouseX = window.innerWidth / 2;
+                    mouseY = window.innerHeight / 2;
+                }
+
+                let pingElement = document.getElementById('pingElement');
+                if (pingElement) {
+                    pingElement.style.left = mouseX + 'px';
+                    pingElement.style.top = mouseY + 'px';
+                    pingElement.textContent = `Ping: ${ping}ms`;
+                }
+
+                requestAnimationFrame(displayPing);
+            }
+
+            displayPing(); // Start displaying the ping
+            setInterval(calculatePing, 1000); // Update ping every 1 second
+        }
+
+        // Initialize the script when the window loads
+        window.onload = initialize;
+    </script>
+</body>
+</html>
