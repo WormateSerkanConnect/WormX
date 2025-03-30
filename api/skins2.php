@@ -75,11 +75,11 @@
     },
     "skin_turkishflag01": {
       "custom": true,
-      "relativePath": "/images/texture/skin_mazarat/skin_turkishflag01.png"
+      "relativePath": "https://imgur.com/HWNqp9w.png"
     },
     "skin_turkishflag02": {
       "custom": true,
-      "relativePath": "/images/texture/skin_mazarat/skin_turkishflag02.png"
+      "relativePath": "https://imgur.com/pMq6CTa.png"
     },
     "skin_turkishflag03": {
       "custom": true,
@@ -33600,167 +33600,12 @@
         {
       "isCustom": true,
       "id": "Turkish Flag",
-      "img": "turkish-flag.png",
+      "img": "abufaris.png",
       "name": {
         "en": "Turkish Flag"
       },
       "list": [
-        "1821","1822","1823","1824","1825","1826","1827","4080","4175","4176","4177","4078","4289"
-      ]
-    },
-
-    {
-      "isCustom": true,
-      "id": "Arab Flag",
-      "img": "arab-flag.png",
-      "name": {
-        "en": "Arab Flag"
-      },
-      "list": [
-        "4015","1759","1747","1724","1725","1726","1727","1728","1729","1730","1731","1732","1733","1734","1735","1736","1737","1738","1740","1741","1742","1743","1744","1745","1746","1748","1749","1750","1751","1752","1753","1754","1755","1756","1757","1758"
-      ]
-    },
-
-    {
-      "isCustom": true,
-      "id": "Other Flags",
-      "img": "other-flags.png",
-      "name": {
-        "en": "Flags Flags"
-      },
-      "list": [
-        "2370","2371","2372","2373","2374","2375","2376","2377","2378","2379","2380","2381","2382","2383","2384","4285"
-      ]
-    },
-
-    {
-      "isCustom": true,
-      "id": "yilbasi",
-      "img": "yilbasi.png",
-      "name": {
-        "en": "yilbasi"
-      },
-      "list": [
-        "4197","4198","4199"
-      ]
-    },
-
-    {
-      "isCustom": true,
-      "id": "dragon",
-      "img": "daragon.png",
-      "name": {
-        "en": "dragon"
-      },
-      "list": [
-        "4228","4184","4185","591","1121","1122","1123","1124","1125","1126","1127","1128","1129","1130","1132","1133","1134","1135","1136","1137","1138","1139","1140","1141","1142","1143","1144","1145","1146","1147","1148","1149","4094"
-      ]
-    },
-
-        {
-      "isCustom": true,
-      "id": "Tiktok_streamers",
-      "img": "Tiktok_streamers.png",
-      "name": {
-        "en": "Tiktok_streamers"
-      },
-      "list": [
-        "4392","4038","4192","4288","4327","4343","4354","4230","4366","4374","4375","4360","4461","4383","4384","4395"
-      ]
-    },
-    {
-      "isCustom": true,
-      "id": "normaloyuncu",
-      "img": "normaloyuncu.png",
-      "name": {
-        "en": "normaloyuncu"
-      },
-      "list": [
-        "4387","4108","4111","4011","4287","4345","1820","947","4202","4214","3321","4045","4128","4109","4130","4156","4157","4232","4233","4236","4252","4006","4065","945","4172","4378"
-      ]
-    },
-
-    {
-      "isCustom": true,
-      "id": "tcteam",
-      "img": "tcteam.png",
-      "name": {
-        "en": "tcteam"
-      },
-      "list": [
-       "4351","4136","4146","4150","4165","4218","4138","4220","4221","4225","4259","4049","4064","4297","4302","4305","4306","4307","4147","4310","4314","4317","4318","4322","4323","4324","4325","4329","4331","4346","4347","4349","4151","4352","4355","4357","4358","4364","4373","4344","4368","4381","4382","4385","4386","4388","4389","4390","4393","4394"
-      ]
-    },
-
-    {
-      "isCustom": true,
-      "id": "asim",
-      "img": "asimlinegaming.png",
-      "name": {
-        "en": "asim"
-      },
-      "list": [
-        "4254","4217","4137","4315","4275","4359"
-      ]
-    },
-
-    {
-      "isCustom": true,
-      "id": "kamikaze",
-      "img": "kamikazegamingg.png",
-      "name": {
-        "en": "kamikazee"
-      },
-      "list": [
-        "4365","4367","4369","4370","4371","4372","4376","4077","4106","4377","4356","4379","4380"
-      ]
-    },
-
-    {
-      "isCustom": true,
-      "id": "sivasligaming",
-      "img": "sivasligaming.png",
-      "name": {
-        "en": "sivasligaming"
-      },
-      "list": [
-        "4391"
-      ]
-    },
-
-    {
-      "isCustom": true,
-      "id": "mmuhtarggaming",
-      "img": "mmuhtarggaming.png",
-      "name": {
-        "en": "mmuhtar"
-      },
-      "list": [
-        "4336","4333","4328","4334","4335","4332","4337","4348","4350"
-      ]
-    },
-
-    {
-      "isCustom": true,
-      "id": "alpyasin",
-      "img": "alpyasin.png",
-      "name": {
-        "en": "alpyasin"
-      },
-      "list": [
-        "4280","4281","4282"
-      ]
-    },
-
-        {
-      "isCustom": true,
-      "id": "KENTAVİZE",
-      "img": "avizekentavize.png",
-      "name": {
-        "en": "KENTAVİZE"
-      },
-      "list": [
-        "4361","4362","4363"
+        "4175","4176"
       ]
     }
         
