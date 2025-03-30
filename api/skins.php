@@ -13789,7 +13789,7 @@
         {
             "id": 1025,
             "guest": false,
-            "nonbuyable": false,
+            "nonbuyable": true,
             "price": 0,
             "priceBefore": 0,
             "prime": "c__yllw",
@@ -13805,15 +13805,15 @@
                 "abufaris_01_0"
             ],
             "glow": [
-                "a__orng",
-                "a__orng",
-                "a__orng",
-                "a__orng",
-                "a__orng",
-                "a__orng",
-                "a__orng",
-                "a__orng",
-                "a__orng"
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
             ]
         },
         {
@@ -18849,23 +18849,7 @@
                 "en": "Abu Faris"
             },
             "list": [
-                "1025",
-                "1026",
-                "1027",
-                "1028",
-                "1029",
-                "1030",
-                "1031",
-                "1032",
-                "1033",
-                "1034",
-                "1035",
-                "1036",
-                "1037",
-                "1038",
-                "1039",
-                "1040",
-                "1041"
+                "1025"
             ]
         }
     ],
@@ -20172,7 +20156,7 @@
         },
         "abufaris_01": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_abufaris\/skin_abufaris_01.png"
+            "relativePath": "https:\/\/i.imgur.com\/HWNqp9w.png"
         },
         "abufaris_02": {
             "custom": true,
