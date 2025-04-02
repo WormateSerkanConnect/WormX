@@ -501,17 +501,24 @@ body {display:block !important;}
   margin-top: -10px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont {
-  position:absolute;
-  height:100%;
-  width:100%;
+  /* position:absolute; */
+  /* height:100%; */
+  /* width:100%; */
+  position: absolute;
+  height: 91%;
+  width: 102%;
+  /* background: url(https://imgur.com/oe2xaKe.gif); */
+  background-size: 422px;
+  background-repeat: no-repeat;
+  margin-left: -32px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-logo {
-  width:100%;
-  border:none;
-  outline:none;
+  width: 100%;
+  border: 0;
+  outline: 0;
   object-fit:contain;
   margin:0;
-  
+  /* height: 60px; */
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-event-cont {
   width:100%;
@@ -694,22 +701,32 @@ body {display:block !important;}
     position: relative;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-actions #mm-action-play {
+  /* background-color: #8bc34a; */
+  /* color: #fff; */
+  /* overflow: hidden; */
+  /* height: 38px; */
+  /* line-height: 1; */
+  /* font-size: 25px; */
+  /* padding: 0 10px; */
+  /* box-sizing: border-box; */
+  /* border-radius: 5px; */
+  /* border: 0; */
+  /* outline: 0; */
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2); */
+  /* text-align: center; */
+  /* text-shadow: 0 0 1px #000; */
+  /* cursor: pointer; */
+  transition: background-color .5sease;
   background-color: #8bc34a;
-    color: #fff;
-    overflow: hidden;
-    height: 38px;
-    line-height: 1;
-    font-size: 25px;
-    /* padding: 0 10px; */
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 0;
-    outline: 0;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
-    text-align: center;
-    text-shadow: 0 0 1px #000;
-    cursor: pointer;
-    transition: background-color .5sease;
+  color: #fff;
+  overflow: hidden;
+  height: 50px;
+  font-size: 25px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-actions #mm-action-play:hover {
   box-shadow:0 1px 1px 0 rgba(0,0,0,.5);
@@ -851,12 +868,18 @@ body {display:block !important;}
   border-radius:8px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right {
+  /* position: absolute; */
+  /* height: 100%; */
+  /* width: 270px; */
+  /* right: 30px; */
+  /* border-radius: 5px; */
+  /* display: none; */
   position: absolute;
-    height: 100%;
-    width: 270px;
-    right: 30px;
-    border-radius: 5px;
-    display: none;
+  height: 100%;
+  width: 300px;
+  right: 10px;
+  border-radius: 10px;
+  background: #1e19193d !important;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right #loa831pibur0w4gv {
   /* height:340px; */
@@ -899,6 +922,7 @@ div#titleSetings {
     color: #11e336;
     text-align: center;
     height: 19px;
+    min-height: 31px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right #loa831pibur0w4gv #aqnvgcpz05orkobh {
   width:300px;
@@ -3281,11 +3305,11 @@ div#titleSetings {
 #aqnvgcpz05orkobh {display:none;}
 
 #title, #titleSetings {
- text-shadow: 0 0 0 #ff0, 0 0 0.5em #ff0, 0 0 0.4em #ff0;
-    font-size: 1.2em !important;
-    text-align: center;
-    font-weight: 700;
-    color: #fff;
+ /* text-shadow: 0 0 0 #ff0, 0 0 0.5em #ff0, 0 0 0.4em #ff0; */
+ font-size: 1.2em !important;
+ text-align: center;
+ font-weight: 700;
+ color: #fff;
 }
 
 
@@ -4107,12 +4131,13 @@ button:hover{
     
 .contact {
     font-weight: bold;
-    line-height: 1.6;
+    line-height: -2.4;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 20px;
     text-shadow: 0 0 0 #ff006a, 0 0 0.5em #ff0000, 0 0 0.4em #ff0000;
-    margin-top: 63px;
+    margin-top: -453px;
     color: #f3f906;
+    /* margin-left: 318px; */
 }
 .het-han {
    font-weight: bold;
