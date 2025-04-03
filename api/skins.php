@@ -21182,7 +21182,7 @@
         },
         "eyes_04": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_04.png"
+            "relativePath": "https:\/\/i.imgur.com\/JD9rRH3.png"
         },
         "eyes_05": {
             "custom": true,
