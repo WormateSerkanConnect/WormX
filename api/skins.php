@@ -13819,7 +13819,7 @@
         {
             "id": 1026,
             "guest": false,
-            "nonbuyable": false,
+            "nonbuyable": true,
             "price": 0,
             "priceBefore": 0,
             "prime": "c__yllw",
@@ -13838,18 +13838,18 @@
                 "a_white",
                 "a_grass",
                 "a_white",
-                "a_grass",
                 "a_white",
-                "a_grass",
                 "a_white",
-                "a_grass",
+                "a_white",
+                "a_white",
+                "a_white",
                 "a_white"
             ]
         },
         {
             "id": 1027,
             "guest": false,
-            "nonbuyable": false,
+            "nonbuyable": true,
             "price": 0,
             "priceBefore": 0,
             "prime": "c__yllw",
@@ -13866,13 +13866,13 @@
             ],
             "glow": [
                 "a_white",
-                "a__card",
                 "a_white",
-                "a__card",
                 "a_white",
-                "a__card",
                 "a_white",
-                "a__card",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
                 "a_white"
             ]
         },
@@ -18849,7 +18849,9 @@
                 "en": "Abu Faris"
             },
             "list": [
-                "1025"
+                "1025",
+                "1026",
+                "1027"
             ]
         }
     ],
@@ -20160,11 +20162,11 @@
         },
         "abufaris_02": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_abufaris\/skin_abufaris_02.png"
+            "relativePath": "https:\/\/i.imgur.com\/BfPk97V.png"
         },
         "abufaris_03": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_abufaris\/skin_abufaris_03.png"
+            "relativePath": "https:\/\/i.imgur.com\/gEVTuxr.png"
         },
         "abufaris_04": {
             "custom": true,
