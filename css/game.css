@@ -4639,12 +4639,13 @@ button:hover{
 .list1{text-align: center;}
 
 .list2 {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 2.3;
     padding-left: 12px;
     color: #0d2449;
     text-align: left;
-    border-bottom: #e3d6d6 solid 1px;}
+    border-bottom: #e3d6d6 solid 1px;
+    }
     
 .list2 a{color: red;
     font-weight: bold;}
