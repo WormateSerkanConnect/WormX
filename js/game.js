@@ -1140,7 +1140,11 @@ window.addEventListener("load", function () {
       _0xb4fe39.fb.ub = 0x1f4;
       _0xb4fe39.N = new _0x5e4879(_0xb4fe39.fb);
       _0xb4fe39.a = function () {
-        window.anApp = _0x1113af?.s?.H?.wb();
+        if (_0x1113af && _0x1113af.s && _0x1113af.s.H) {
+    window.anApp = _0x1113af;
+    window.anApp.s.H.wb();
+}
+
         setInterval(function () {
           _0xb4fe39.S(function (_0x1fe344, _0x49daa7) {
             _0xb4fe39.xb(_0x1fe344, _0x49daa7);
