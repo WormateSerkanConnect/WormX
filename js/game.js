@@ -1,3 +1,4 @@
+var SITE_XTHOST = "https://wormateserkanconnect.github.io/WormX";
 window.detectLog = null;
 const _wormup = {
   'BETAisSkinCustom'(_0x5570dd) {
