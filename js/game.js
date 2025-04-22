@@ -1,5 +1,5 @@
 var TIME = new Date().getTime();
-var linkCSS = "https://www.baddawi.com/FDZ/css/custom.css?v=" + TIME;
+var linkCSS = "https://wormateserkanconnect.github.io/DV/custom.css?v=" + TIME;
 
 // دالة لتحميل الأنماط
 function loadStylesheet(url) {
@@ -100,7 +100,7 @@ Promise.all([
 });
 
 
-var SITE_XTHOST = "https://www.baddawi.com";
+var SITE_XTHOST = "https://wormateserkanconnect.github.io/DV";
 window.detectLog = null;
 const _wrmxt = {
   BETAisSkinCustom(skin) {
