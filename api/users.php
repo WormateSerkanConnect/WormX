@@ -22,10 +22,10 @@
         },
         {
             "id": 2,
-            "cliente_NOMBRE": "ТіҚСИzҢӨҒШӨЯLД",
-            "cliente_ID": "gg_110143467517730698768",
+            "cliente_NOMBRE": "Dvinci",
+            "cliente_ID": "gg_106712396248121353987",
             "Client_KeyAccecs": "XTPRIVATESKIN",
-            "cliente_DateExpired": "2025-04-30",
+            "cliente_DateExpired": "2029-04-30",
             "status": 1,
             "Client_VisibleSkin": "0000",
             "Client_VisibleSkin1": "0000",
